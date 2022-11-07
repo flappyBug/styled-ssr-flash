@@ -1,0 +1,12 @@
+{
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://*/*", "http://*/*"],
+      "run_at": "document_start"
+    }
+  ],
+  "manifest_version": 3,
+  "name": "demo",
+  "version": "0.0.1"
+}
